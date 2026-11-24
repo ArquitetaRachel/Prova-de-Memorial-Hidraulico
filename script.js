@@ -243,15 +243,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 JSON.stringify(pokemonsSorteados)
             );
 
-            console.log("Novos Pokémon sorteados:");
-            console.log(
-                "Pokémon 1:",
-                pokemonsSorteados.pokemon1
-            );
-            console.log(
-                "Pokémon 2:",
-                pokemonsSorteados.pokemon2
-            );
+            //console.log("Novos Pokémon sorteados:");
+            //console.log(
+                //"Pokémon 1:",
+                //pokemonsSorteados.pokemon1
+            //);
+            //console.log(
+               // "Pokémon 2:",
+                //pokemonsSorteados.pokemon2
+            //);
         }
 
         // Verifica se os Pokémon já foram inseridos
