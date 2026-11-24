@@ -129,10 +129,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    // ==========================================
-    // SORTEIO DOS POKÉMON
-    // ==========================================
-
     function sortearPokemons() {
 
         // Sorteia o primeiro Pokémon
@@ -158,10 +154,6 @@ document.addEventListener("DOMContentLoaded", function () {
             pokemon2: listaPokemon[indice2]
         };
     }
-    // ==========================================
-    // INSERIR POKÉMON NO TEXTO
-    // ==========================================
-
 
     function inserirPokemonsNoTexto(pokemon1, pokemon2) {
         const editor = window.editorMemorial;
@@ -203,11 +195,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log("Pokémon inseridos corretamente.");
     }
-
-
-    // ==========================================
-    // SORTEIO E INSERÇÃO DOS POKÉMON
-    // ==========================================
 
     if (typeof listaPokemon !== "undefined" && areaEditor) {
 
@@ -280,11 +267,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-
-    // ==========================================
-    // FINALIZAR MEMORIAL
-    // ==========================================
-
     const botaoFinalizar =
         document.getElementById("botao-continuar");
 
@@ -314,11 +296,6 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "entrega.html";
         });
     }
-
-
-    // ==========================================
-    // PÁGINA DE ENTREGA
-    // ==========================================
 
     const resumoDupla =
         document.getElementById("resumo-dupla");
