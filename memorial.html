@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memorial</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Quill: biblioteca do editor de texto -->
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="pagina-memorial">
+
+        <header class="cabecalho-memorial">
+
+            <div>
+                <h1>Memorial 1</h1>
+
+                <p id="boas-vindas"></p>
+            </div>
+
+        </header>
+
+
+        <section class="area-documento">
+
+            <div class="documento">
+
+                <div id="editor" spellcheck="false">
+
+                    <h2>Memorial 1</h2>
+
+                    <p>
+                        <b> Este é um texto de exemplo para o nosso memorial.</b>
+                    </p>
+
+                    <p>
+                        Em breve, aqui estará o documento que os alunos
+                        deverão ler, revisar e editar.
+                    </p>
+
+                    <p>
+                        Por enquanto estamos apenas testando o editor.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="acoes">
+
+            <button id="botao-continuar">
+                Finalizar Memorial
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- Quill -->
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js">
+    </script>
+    <script src="memorial-conteudo.js"></script>
+    <script src="pokemon.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

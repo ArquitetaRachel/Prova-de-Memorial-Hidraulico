@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #222;
+}
+
+.pagina-inicial {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.descricao {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+button {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #222;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.pagina-memorial {
+    min-height: 100vh;
+    background: #f2f4f7;
+}
+
+
+/* Cabeçalho */
+
+.cabecalho-memorial {
+    background: white;
+
+    padding: 20px 40px;
+
+    border-bottom: 1px solid #ddd;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-memorial h1 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.cabecalho-memorial p {
+    color: #666;
+}
+
+
+/* Área onde fica o documento */
+
+.area-documento {
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20px;
+}
+
+
+/* Folha */
+
+.documento {
+    width: 100%;
+    max-width: 900px;
+
+    background: white;
+
+    min-height: 700px;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Editor */
+
+#editor {
+    min-height: 650px;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+}
+
+
+/* Barra de ferramentas do Quill */
+
+.ql-toolbar {
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+
+    background: #fafafa;
+}
+
+
+/* Área de texto do Quill */
+
+.ql-container {
+    border: none !important;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+}
+
+
+/* Botão de finalizar */
+
+.acoes {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 20px 40px;
+}
+
+.acoes button {
+    width: auto;
+
+    min-width: 220px;
+}
